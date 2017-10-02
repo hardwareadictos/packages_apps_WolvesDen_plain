@@ -416,4 +416,9 @@
     <string name="screen_state_on_delay_title">Screen On actions delay</string>
     <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
 
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="status_bar_icons_category_title">Icons</string>
+
 </resources>

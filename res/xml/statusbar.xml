@@ -27,6 +27,26 @@
         android:fragment="com.gzr.wolvesden.fragments.StatusBarLogoSettings"
         android:title="@string/statusbar_logo_title" />
 
+   <PreferenceCategory
+        android:key="statusbar_icons_category"
+        android:title="@string/status_bar_icons_category_title">
+
+        <!-- Show Network Traffic State on Statusbar -->
+        <com.gzr.wolvesden.preference.SystemSettingSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:defaultValue="false" />
+
+        <com.gzr.wolvesden.preference.CustomSeekBarPreference
+           android:key="network_traffic_autohide_threshold"
+           android:title="@string/network_traffic_autohide_threshold_title"
+           android:max="10"
+           android:min="0"
+           android:defaultValue="1"
+           android:dependency="network_traffic_state" />
+
+   </PreferenceCategory>
+
     <Preference
         android:key="statusbar_battery"
         android:fragment="com.gzr.wolvesden.fragments.StatusBarBatterySettings"
