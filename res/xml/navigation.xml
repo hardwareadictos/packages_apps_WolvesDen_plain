@@ -18,34 +18,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/navigation_category"
-    android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-   <Preference
-        android:key="navbar"
-        android:fragment="com.gzr.wolvesden.fragments.NavbarSettings"
-        android:title="@string/navbar_title" />
-
-     <Preference
-        android:key="button"
-        android:title="@string/button_title"
-        android:fragment="com.gzr.wolvesden.fragments.Button" />
-
-   <Preference
-        android:key="button_settings"
-        android:title="@string/button_pref_title"
-        android:fragment="com.gzr.wolvesden.fragments.ButtonSettings" />
-
-    <!--<Preference
-        android:key="various_navigation"
-        android:fragment="com.gzr.wolvesden.fragments.VariousNavigation"
-        android:title="@string/various_navigation_title" />-->
-
-         <!-- Edge gestures -->
-         <Preference
-            android:id="@+id/edge_gestures"
-            android:key="edge_gestures"
-            android:fragment="com.gzr.wolvesden.fragments.EdgeGesturesSettings"
-            android:title="@string/edge_gestures_title"/>
 
 </PreferenceScreen>
