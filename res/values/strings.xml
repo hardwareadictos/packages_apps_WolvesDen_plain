@@ -46,4 +46,7 @@
     <string name="lockscreen_enable_power_menu_title">Power menu</string>
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lock screen</string>
 
+    <!-- SmartNavv -->
+    <string name="navigationbar_settings_title">SmartNav</string>
+
 </resources>
