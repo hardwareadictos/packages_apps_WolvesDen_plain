@@ -35,5 +35,10 @@
         android:title="@string/status_bar_logo_color_title"
         android:defaultValue="0xff009688"
         android:dependency="status_bar_logo" />
+	
+    <Preference
+        android:key="statusbar_battery"
+        android:fragment="com.gzr.wolvesden.fragments.StatusBarBatterySettings"
+        android:title="@string/statusbar_battery_title" />
 
 </PreferenceScreen>
